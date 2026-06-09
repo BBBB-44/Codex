@@ -94,10 +94,15 @@ Don’t guess what users want—let them tell you.
 ### 15. Act fast
 why? To stop potential copy cat, to confirm interest, and because what you are working on is most likely trivial in the long term.
 
+## 16. Verify if tools or systems exist before making them.
+Remember : The goal is the project, not the tool.
+Note : Slack system (internal communication tool) became the product...
+
+## 17. Minimal brand design verification
+1. Verify if the name doesnt have any negative related to it.
+2. Verify if the name is available as a domain
+
 ## Final Thought: Success Is Designed, Not Discovered
 
 The rules are simple. Following them is hard. But that’s why most projects fail.
 
-## 16. Verify if tools or systems exist before making them.
-Remember : The goal is the project, not the tool.
-Note : Slack system (internal communication tool) became the product...
