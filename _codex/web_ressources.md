@@ -17,3 +17,12 @@ Annas-archive.org
 Paletton.com 
 
 Coolors.co 
+
+
+# Video editor
+
+clideo
+
+# Gif editor
+
+ezgif.com (webm to gif with transparent background)
