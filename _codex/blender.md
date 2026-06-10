@@ -71,3 +71,23 @@ Connect the Color output of the Image Texture node to the Base Color input of th
 1. Activate Fly Mode: Press Shift +  ` (tilde key).
 2. Navigate: Use your mouse to aim, and W, A, S, D keys to move forward, left, backward, and right.
 
+
+# how to extrude svg
+1. import svg file
+2. go in object data. (green sideway U icon)
+3. geometry >extrude
+
+## optional : facing upward position
+press r
+press x
+press 90
+
+## optional : change the svg center point
+edit mode
+press g
+
+# How to rotate object
+1. transform panel > z > insert keyframe
+2. 1st keyframe z = 0
+3. last keyframe z = 360
+4. rightclick keyframe > interpolation mode > linear
