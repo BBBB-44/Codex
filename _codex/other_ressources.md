@@ -13,13 +13,17 @@ Biased toward windows, and free solution.
 # Program
 
 ## Notepad++ : built-in backup features
--includes two primary built-in backup features designed to prevent data loss: Session Snapshot (for unsaved files) and Backup on Save (for versioning
+-includes two primary built-in backup features designed to prevent data loss: Session Snapshot (for unsaved files) and Backup on Save (for versioning)
 
 ## Github : comprehensive platform providing cloud-based version control
 
 ## Blender :
+work in headless...
 
 ## Fusion360 :
 
 ## SpaceDesk :
 -Allow pc as a second monitor
+
+## scenedetect :
+automatically split a video on each scene..
