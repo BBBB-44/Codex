@@ -91,3 +91,11 @@ press g
 2. 1st keyframe z = 0
 3. last keyframe z = 360
 4. rightclick keyframe > interpolation mode > linear
+
+# render transparent background video blender 
+Render Properties → Film → Transparent 
+
+Output Properties
+Container: WebM
+Video Codec: WebM/VP9
+Color: RGBA
