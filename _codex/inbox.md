@@ -6,6 +6,7 @@ download this file : https://www.sec.gov/pdf/handbook.pdf
 subject to explore :
 
 ```
+write an article about how to generate wealth in qc. from 8 year old till retraite. dont hate the player hate the game. reee, celi, celiapp, ask useful gift, credit impot 1ere habitation. style pierre-yves mcsween. Guide for a normal person.
 write an article about data/information diagram, mindmap, brainstorming, the use of mimind app, then recently plantuml and mermaid, and lastly possibly a custom solution.
 Write an article about data backup philosophy
 What are promise interace
