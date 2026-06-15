@@ -26,3 +26,4 @@ yt-dlp -P "C:\Users\6666666\Downloads\Video2" "https://www.youtube.com/watch?v=R
 
 yt-dlp -f bestaudio -x -P "C:\Users\6666666\Downloads\Video2" --audio-format mp3 "https://www.youtube.com/watch?v=YWyHZNBz6FE"
 
+yt-dlp -x --audio-format mp3 "URL_DE_LA_VIDÉO"
