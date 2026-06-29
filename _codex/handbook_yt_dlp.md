@@ -34,7 +34,9 @@ winget install -e --id Gyan.ffmpeg
 # Different download options :
 
 ## Download audio + thumbnail to a specific folder
+*Change 66666666 for your user and URL_DE_LA_VIDEO for your video/playlist url
 ```powershell
+yt-dlp -x --audio-format mp3 --embed-thumbnail --no-write-thumbnail -o "C:\Users\66666666\Downloads\%(title)s.%(ext)s" 'URL_DE_LA_VIDEO'
 ````
 
 ## Download youtube video to a specific folder:
