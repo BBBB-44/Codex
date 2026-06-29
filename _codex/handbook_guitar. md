@@ -1,0 +1,44 @@
+---
+---
+
+# Guitar handbook
+
+
+  
+1. Empty chords diagram
+
+    1   2   3   4
+e ─┬───┬───┬───┬───
+B ─┼───┼───┼───┼───
+G ─┼───┼───┼───┼───
+D ─┼───┼───┼───┼───
+A ─┼───┼───┼───┼───
+E ─┴───┴───┴───┴───
+
+The letters e to E are the strings:
+
+Label	String	Thickness
+e	High E	Thinnest
+B	B	
+G	G	
+D	D	
+A	A	
+E	Low E	Thickest
+
+The numbers 1–4 are the fret numbers shown on the diagram.
+
+1 = 1st fret
+2 = 2nd fret
+3 = 3rd fret
+4 = 4th fret
+
+
+
+
+```
+       D          G          A
+     xxo          oo       xo   o
+   I ||||||     ||||||     ||||||
+  II |||1|2     |1||||     ||213|
+ III ||||3|     2|||34     ||||||
+```
