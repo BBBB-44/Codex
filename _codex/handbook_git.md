@@ -7,6 +7,12 @@
 
 Git is a distributed version control software system that is capable of managing versions of source code or data. It is often used to control source code by programmers who are developing software collaboratively.
 
+# Preface
+
+This content is intended for console use. While the appeal of a GUI like SourceTree is understandable, using a CLI makes it easier to spot problems and use AI when necessary.
+
+The goal of this article is to provide the basic steps, common problems, and their solutions in a simplified way.
+
 # Table of Contents
 
 * [3 basic steps to push](#3-basic-steps-to-push)
