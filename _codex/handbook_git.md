@@ -5,7 +5,56 @@
 
 # ABOUT GIT
 
-Git is a distributed version control software system[10] that is capable of managing versions of source code or data. It is often used to control source code by programmers who are developing software collaboratively.
+Git is a distributed version control software system that is capable of managing versions of source code or data. It is often used to control source code by programmers who are developing software collaboratively.
+
+# Table of Contents
+
+* [3 basic steps to push](#3-basic-steps-to-push)
+* [Specify a specific account when using git clone](#specify-a-specific-account-when-using-git-clone)
+* [Setting Commit Identity for the Repo](#setting-commit-identity-for-the-repo)
+* [List all changes](#list-all-changes)
+* [File specific changes](#file-specific-changes)
+* [Short summary of all changes](#short-summary-of-all-changes)
+* [List everything in a repo except files ignored by `.gitignore`](#list-everything-in-a-repo-except-files-ignored-by-gitignore)
+* [If you want it for a specific folder](#if-you-want-it-for-a-specific-folder)
+* [Staged everything except](#staged-everything-except)
+
+# 3 basic steps to push
+
+The basic Git workflow is:
+
+### 1. Add
+
+Stage your changes:
+
+```bash
+git add .
+```
+
+### 2. Commit
+
+Create a commit with a message:
+
+```bash
+git commit -m "Your commit message"
+```
+
+### 3. Push
+
+Push your commit to the remote repository:
+
+```bash
+git push
+```
+
+So, the usual workflow is:
+
+```bash
+git add .
+git commit -m "Your commit message"
+git push
+```
+
 
 # Specify a specific account when using git clone
 
