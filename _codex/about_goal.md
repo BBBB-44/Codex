@@ -14,6 +14,9 @@ For example, instead of saying:
 You could define a SMART goal:
 “I will complete one professional course within the next three months and apply what I learn to a project at work.”
 Now the goal is clear, measurable, realistic, meaningful, and connected to a timeline.
+
+Another suggestion : Note the date you gave yourself the goal. This way you will be able to look back and see what you accomplished in your timeframe.
+
 Your Goal Does Not Have to Be Perfect
 It is important to remember that defining a goal does not mean you have to predict your entire future.
 Sometimes we set a goal based on what we know today, only to discover that our priorities, circumstances, or interests change. That is completely normal.
