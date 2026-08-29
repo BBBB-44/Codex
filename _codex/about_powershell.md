@@ -25,3 +25,7 @@ Get-ChildItem -File -Recurse -ErrorAction SilentlyContinue |
     Sort-Object 'Size (GB)' -Descending |
     Select-Object -First 10 |
     Format-Table -AutoSize
+
+# calculates total disk usage inside the current directory recursively.
+
+$size = (Get-ChildItem -Force -Recurse -File -ErrorAction SilentlyContinue | Measure-Object Length -Sum).Sum; "{0:N2} GB" -f ($size / 1GB)
