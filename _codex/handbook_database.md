@@ -12,7 +12,7 @@
 Table Architecture
 General Principles
 
-Use camelCase for column names.
+DONT Use camelCase for column names, since PostgreSQL convertit par défaut tous les noms de colonnes en minuscules.
 Avoid generic id column names. Make identifiers specific to the entity.
 bookId
 artistId
