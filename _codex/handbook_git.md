@@ -16,6 +16,7 @@ The goal of this article is to provide the basic steps, common problems, and the
 # Table of Contents
 
 * [3 basic steps to push](#3-basic-steps-to-push)
+* [use a file as a commit message](#use-a-file-as-a-commit-message)
 * [Specify a specific account when using git clone](#specify-a-specific-account-when-using-git-clone)
 * [Setting Commit Identity for the Repo](#setting-commit-identity-for-the-repo)
 * [List all changes](#list-all-changes)
@@ -61,6 +62,10 @@ git commit -m "Your commit message"
 git push
 ```
 
+# use a file as a commit message
+```
+git commit -F <path_to_file>
+```
 
 # Specify a specific account when using git clone
 
