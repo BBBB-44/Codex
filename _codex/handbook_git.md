@@ -1,6 +1,3 @@
----
----
-
 <img width="960" height="401" alt="Git-logo-white svg" src="https://github.com/user-attachments/assets/2cea87ae-b7af-4b07-9918-81384fe8070e" />
 
 # ABOUT GIT
@@ -12,19 +9,6 @@ Git is a distributed version control software system that is capable of managing
 This content is intended for console use. While the appeal of a GUI like SourceTree is understandable, using a CLI makes it easier to spot problems and use AI when necessary.
 
 The goal of this article is to provide the basic steps, common problems, and their solutions in a simplified way.
-
-# Table of Contents
-
-* [3 basic steps to push](#3-basic-steps-to-push)
-* [use a file as a commit message](#use-a-file-as-a-commit-message)
-* [Specify a specific account when using git clone](#specify-a-specific-account-when-using-git-clone)
-* [Setting Commit Identity for the Repo](#setting-commit-identity-for-the-repo)
-* [List all changes](#list-all-changes)
-* [File specific changes](#file-specific-changes)
-* [Short summary of all changes](#short-summary-of-all-changes)
-* [List everything in a repo except files ignored by `.gitignore`](#list-everything-in-a-repo-except-files-ignored-by-gitignore)
-* [If you want it for a specific folder](#if-you-want-it-for-a-specific-folder)
-* [Staged everything except](#staged-everything-except)
 
 # 3 basic steps to push
 
@@ -62,37 +46,20 @@ git commit -m "Your commit message"
 git push
 ```
 
-# use a file as a commit message
-```
-git commit -F <path_to_file>
-```
+# Analyze
 
-# Specify a specific account when using git clone
-
-For HTTPS cloning, you can force Git to use a specific account by prepending the username to the URL. This is useful if you have multiple accounts and want to ensure Git prompts you for the credentials of the correct one. 
-```
-git clone git@github.com:username/repository.git
-```
-# Setting Commit Identity for the Repo
-
-Navigate into the repository and run:
-```
-git config user.name "Your Name"
-git config user.email "your-account-email@example.com"
-```
-
-# List all changes
+## List all changes
 Shows line-by-line changes in all modified files (unstaged changes).
 ```
 git diff
 ```
 
-# File specific changess
+## File specific changes
 ```
 git diff fileName.txt
 ```
 
-# Short summary of all changes
+## Short summary of all changes
 Shows line-by-line changes in all modified files (unstaged changes).
 ```
 git diff --stat
@@ -103,7 +70,7 @@ Example output:
 ...Mastermind.csproj                |  3 ++-
 ```
 
-# list everything in a repo except files ignored by .gitignore
+## list everything in a repo except files ignored by .gitignore
 ```
 git ls-files --cached --others --exclude-standard
 ```
@@ -112,12 +79,14 @@ What it does:
 --others → includes untracked files
 --exclude-standard → applies .gitignore, .git/info/exclude, and global gitignore
 
-# If you want it for a specific folder
+## If you want it for a specific folder
 ```
 git ls-files --cached --others --exclude-standard -- .\your-folder\
 ```
 
-# Staged everything except
+# Add
+
+## Stage everything except
 
 **Exclude a specific folder:**
 ```bash
@@ -138,3 +107,29 @@ git add -A -- . ':(exclude)*.log'
 ```bash
 git add -A -- . ':!file1.txt' ':!folder/file2.cs' ':!Sem04-Sommatif_1/StudentClient/StudentClient/ConfigHelper.cs'
 ```
+
+# Commit
+
+## use a file as a commit message
+```
+git commit -F <path_to_file>
+```
+
+## Setting Commit Identity for the Repo
+
+Navigate into the repository and run:
+```
+git config user.name "Your Name"
+git config user.email "your-account-email@example.com"
+```
+
+# TroubleShoot
+
+## Specify a specific account when using git clone
+
+For HTTPS cloning, you can force Git to use a specific account by prepending the username to the URL. This is useful if you have multiple accounts and want to ensure Git prompts you for the credentials of the correct one. 
+```
+git clone git@github.com:username/repository.git
+```
+
+
