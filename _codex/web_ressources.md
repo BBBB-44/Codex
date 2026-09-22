@@ -36,3 +36,9 @@ vpngate.net
 https://convertmd2pdf.com/
 
 https://md2pdf.moon-jam.me/
+
+# Self improvement
+
+https://www.bryanbraun.com/2026/07/11/you-are-not-your-grand-plans/
+
+https://sparkbox.com/foundry/joy_skill_career_and_money_how_i_choose_a_side_project
