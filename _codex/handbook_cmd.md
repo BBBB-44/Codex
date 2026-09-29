@@ -7,7 +7,7 @@ dir /b /s | findstr /v /i "\\FolderName\\"
 # List files and folder in a tree structure
 tree /F
 
-## Files + folders, using ASCII characters:
+## List Files + folders, using ASCII characters:
 tree /F /A
 
 # Create and open a new text file directly in Notepad+
@@ -15,6 +15,13 @@ tree /F /A
 
 notepad++ file_name.txt
 
+# Move
+move C:\file.txt D:\newfolder\
+or
+move action.py Desktop\
+
+# Delete
+del C:\folder\file.txt
 
 
 ----------------------------
