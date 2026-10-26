@@ -34,17 +34,112 @@ git commit -m "Your commit message"
 
 Push your commit to the remote repository:
 
-```bash
+```
 git push
 ```
 
 So, the usual workflow is:
 
-```bash
+```
 git add .
 git commit -m "Your commit message"
 git push
 ```
+
+# Branch
+
+## Committing to a Branch 
+
+Checkout (switch to) the branch where you want the commit: 
+```
+git checkout branch_name 
+```
+ 
+
+If the branch doesn’t exist yet, create and switch with: 
+```
+git checkout -b branch_name 
+```
+ 
+
+Stage your changes: 
+```
+git add <files> 
+```
+ 
+
+Commit your staged changes: 
+```
+git commit -m "Your commit message" 
+```
+ 
+
+Push to remote: 
+```
+git push origin branch_name
+```
+
+---
+
+## merge a branch to main 
+
+Switch to main: 
+```
+git checkout main 
+```
+ 
+
+Pull the latest changes on main from the remote: 
+```
+git pull origin main 
+```
+ 
+
+Merge the other branch (e.g., feature-branch) into main: 
+```
+git merge feature-branch 
+```
+ 
+
+If there are merge conflicts, resolve them manually: 
+
+Check Conflict Status 
+```
+Git status 
+```
+
+Open Each Conflicted File using any text editor. 
+
+```
+Look for conflict markers within each file: 
+<<<<<<< HEAD 
+// your local changes 
+======= 
+// remote changes 
+>>>>>>> origin/main 
+Remove all the <<<<<<<, =======, and >>>>>>> markers after resolving the code. 
+```
+
+Stage the Resolved Files 
+```
+Git add <filename> 
+```
+Commit the merge 
+```
+git commit -m "Resolved merge conflicts" 
+```
+push back to the remote 
+```
+git push 
+```
+ 
+
+Push the updated main branch to the remote: 
+```
+git push origin main
+```
+
+
 
 # Analyze
 
