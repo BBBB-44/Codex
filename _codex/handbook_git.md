@@ -143,6 +143,11 @@ git push origin main
 
 # Analyze
 
+## List all branch
+```
+git branch -a
+```
+
 ## List all changes
 Shows line-by-line changes in all modified files (unstaged changes).
 ```
@@ -227,4 +232,9 @@ For HTTPS cloning, you can force Git to use a specific account by prepending the
 git clone git@github.com:username/repository.git
 ```
 
+## Reset 
+Cancel last commit while keeping the modification intact
+```
+git reset --soft HEAD~1
+```
 
