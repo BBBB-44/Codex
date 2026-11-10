@@ -238,3 +238,9 @@ Cancel last commit while keeping the modification intact
 git reset --soft HEAD~1
 ```
 
+## Reset
+Cancel last added while keeping the modification intact
+```
+git restore --staged .
+```
+
