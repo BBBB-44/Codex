@@ -10,6 +10,12 @@ tree /F
 ## List Files + folders, using ASCII characters:
 tree /F /A
 
+## Create a file
+Utilisation : fsutil file createNew <nom du fichier> <longueur>
+```
+fsutil file createnew init.sql 0
+```
+
 # Create and open a new text file directly in Notepad+
 *Notice: To create and open a text file directly using the notepad++ file_name.txt command, you must first add Notepad++ to your system's Environment Variables.
 
