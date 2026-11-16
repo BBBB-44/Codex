@@ -29,6 +29,25 @@ move action.py Desktop\
 # Delete
 del C:\folder\file.txt
 
+# Open a VS Code workspace
+```
+code . <project_folder>
+```
+
+# Open a visual studio workspace
+```
+start <project_sln>
+```
+
+# Open 2 workspace
+```
+code <project_folder> & start <project_folder\project_sln>
+```
+
+ex :
+```
+code my_little_rpg & start PokeApi\PokeApi.sln
+```
 
 ----------------------------
 
