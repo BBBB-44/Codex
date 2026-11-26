@@ -18,8 +18,13 @@ The basic Git workflow is:
 
 Stage your changes:
 
+> stage everything in the curent folder and sublfolder
 ```bash
 git add .
+```
+> Stage everything across the entire repository.
+```
+git add -A
 ```
 
 ### 2. Commit
