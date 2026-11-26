@@ -103,13 +103,15 @@ ORDER BY
 
 ## Schema explorer for the new mysql workbench, since you cant copy returned result anymore 
 ```
+SET SESSION group_concat_max_len = 100000000;
+
 SELECT GROUP_CONCAT(
     CONCAT_WS(', ', TABLE_NAME, COLUMN_NAME, DATA_TYPE, IFNULL(CHARACTER_MAXIMUM_LENGTH, ''), IS_NULLABLE, COLUMN_KEY, IFNULL(COLUMN_DEFAULT, 'NULL'))
+    ORDER BY TABLE_NAME, ORDINAL_POSITION
     SEPARATOR '\n'
 ) AS schema_output
 FROM information_schema.COLUMNS
-WHERE TABLE_SCHEMA = DATABASE()
-ORDER BY TABLE_NAME, ORDINAL_POSITION;
+WHERE TABLE_SCHEMA = DATABASE();
 ```
 
 ## Foreign keys explorer
