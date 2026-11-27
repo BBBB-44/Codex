@@ -49,6 +49,11 @@ ex :
 code my_little_rpg & start PokeApi\PokeApi.sln
 ```
 
+# List system information 
+```
+systeminfo
+```
+
 ----------------------------
 
 # Environment variable modification
